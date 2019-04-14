@@ -16,7 +16,7 @@ class Student
         name TEXT,
         grade INTEGER
         )
-        SQL
+    SQL
     DB[:conn].execute(sql)
   end
 
@@ -25,7 +25,7 @@ class Student
       DROP TABLE students
       SQL
 
-      DB[:conn].execute(sql) 
+      DB[:conn].execute(sql)
   end
 
   def self.save
